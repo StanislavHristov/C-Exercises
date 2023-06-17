@@ -13,9 +13,9 @@ int main()
     printf("Celsius to Fahrenheit Converter\n");
     printf("Celsius\t\tFahrenheit\n");
 
-    for(cel=lower;cel<=upper;cel+=STEP){
+    for(cel = lower; cel <= upper; cel += STEP){
         fahr = cel*9./5 + 32;
-        printf("%d\t%g\n",cel,fahr);
+        printf("%d\t%g\n", cel, fahr);
     }
     return 0;
 }
